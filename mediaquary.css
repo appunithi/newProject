@@ -1,0 +1,24 @@
+@media screen and (min-width:360px) and (max-width:480px) {
+
+    .leftHeaderone > img {
+       width: 60px;
+       height: 60px;
+    }
+
+    .rightHeaderone {
+        display: block;
+        padding-top:10px;
+    }
+
+    .rightHeaderone>h3 {
+        font-size: small;
+        font-weight: bolder;
+    }
+
+    .rightHeaderone>h2 {
+        font-size: x-small;
+        font-weight: bolder;
+
+    }
+
+}
