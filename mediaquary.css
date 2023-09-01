@@ -1,13 +1,10 @@
 @media screen and (min-width:360px) and (max-width:480px) {
 
-    body{
-        background-color: aqua;
-    }
+   
     .leftHeaderone > img {
        width: 60px;
        height: 60px;
     }
-got
 
     .rightHeaderone>h3 {
         font-size: small;
