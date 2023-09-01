@@ -1,6 +1,8 @@
 @media screen and (min-width:360px) and (max-width:480px) {
 
-   
+    body{
+        background-color: aqua;
+    }
     .leftHeaderone > img {
        width: 60px;
        height: 60px;
@@ -15,6 +17,9 @@
         font-size: x-small;
         font-weight: bolder;
 
+    }
+    .smoothie, h1{
+        font-size: small;
     }
 
 }
