@@ -79,11 +79,10 @@ ul>li {
     
 }
 
-.smoothie  {
-    /* width: 100%; */
+.smoothie{
     display: flex;
     padding: 20px;
-    background-color: rgb(60, 187, 230);
+    background-color: rgb(144, 224, 239);
 }
 
 .leftSmoothie {
@@ -97,39 +96,105 @@ ul>li {
 }
 
 .smoothieP  {
-    /* font-weight: bolder; */
-    text-decoration: underline yellow 4px;
+    text-decoration:underline 3px  yellow ;
     text-transform:  capitalize;
-    padding:  10px 0;
+    
 }
 
 .rightSmoothie>img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
-.bottonSmoothie{
+.buttonSmoothie{
     margin: 10px 10px 10px 0;
     cursor: pointer;
-    background-color:  rgb(60, 187, 230);
+    background-color:  #caf0f8;
     padding:  7px ;
     border-radius: 5px;
-    /* box-shadow: 0px 0px 2px 2px rgb(0,0,0); */
-    /* border: none; */
     text-transform: capitalize;
 
 }
-.bottonSmoothie:hover {
-    background-color:#002ead;
+.buttonSmoothie:hover {
+    background-color: rgb(144, 224, 239);
     transition: 1.7s;
 }
-.bottonSmoothie:focus {
-    outline-color: transparent;
-    outline-style:dashed;
-    box-shadow: 0 0 0 4px #ff0000;
+.fruits {
+    display: flex;
+    padding: 20px;
+    background-color: #80ed99;
 }
-/* .bottonSmoothie:active {
-    background-color: #00ff22;
-} */
-.pSmoothi{
-    padding: 10px 0 10px 0;
+
+.leftFruits {
+    width: 50%;
 }
+.rightFruits {
+    width: 50%;
+    display: flex;   
+    justify-content: flex-end;
+
+}
+
+.fruitsP  {
+    text-decoration:underline 3px  yellow ;
+    text-transform:  capitalize;
+    
+}
+
+.rightFruits>img {
+    width: 150px;
+    height: 150px;
+}
+.cake {
+    display: flex;
+    padding: 20px;
+    background-color: #fbd1a2;
+    gap: 20px;
+}
+
+.leftCake {
+    width: 50%;
+}
+.rightCake {
+    width: 50%;
+    display: flex;   
+    justify-content: flex-end;
+
+}
+
+.cakeP  {
+    text-decoration:underline 3px  yellow ;
+    text-transform:  capitalize;
+    
+}
+
+.rightCake>img {
+    width: 150px;
+    height: 150px;
+}
+.food {
+    display: flex;
+    padding: 20px;
+    background-color: #f9ea9a;
+}
+
+.leftFood {
+    width: 50%;
+}
+.rightFood {
+    width: 50%;
+    display: flex;   
+    justify-content: flex-end;
+
+}
+
+.foodP  {
+    text-decoration:underline 3px  yellow ;
+    text-transform:  capitalize;
+    
+}
+
+.rightFood>img {
+    width: 150px;
+    height: 150px;
+}
+
