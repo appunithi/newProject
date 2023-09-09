@@ -1,31 +1,28 @@
-@media screen and (min-width:360px) and (max-width:480px) {
+@media screen and (max-width:991px) {
 
-   
-    .leftHeaderone > img {
-       width: 60px;
-       height: 60px;
+    .taggle-btn {
+        display: block;
     }
 
-    .rightHeaderone>h3 {
-        font-size: small;
-        font-weight: bolder;
-    }
-
-    .rightHeaderone>h2 {
-        font-size: x-small;
-        font-weight: bolder;
+    nav {
+        display: none;
+        width: 100%;
+        border-top: 1px solid #000;
+        padding-top: 20px;
+        margin-top: 30px;
 
     }
-    .smoothie, h1{
-        font-size: small;
+
+    nav,
+    ul,
+    li {
+        padding: 15px 0px;
+        width: 100%;
     }
-    ul>li {
-        display: inline-block;
-        /* text-align: center; */
-        /* align-items: center; */
-        /* padding: 30px; */
-        /* text-transform: uppercase; */
-        /* font-weight: bold; */
+
+    nav.show {
+        display: block;
+
     }
 
 }
